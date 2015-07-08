@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+import com.meteo.tempeture.URLReader;
+
 @Controller
 public class BaseController {
 
@@ -17,7 +19,9 @@ public class BaseController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
 
-		model.addAttribute("message", "Welcome");
+		String res = String.valueOf(URLReader.getTemperature());
+		
+		model.addAttribute("message", "Welcome , temp = " + res);
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
 
