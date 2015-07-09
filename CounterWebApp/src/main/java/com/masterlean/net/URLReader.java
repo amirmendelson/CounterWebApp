@@ -1,4 +1,4 @@
-package masterlean;
+package com.masterlean.net;
 
 
 import java.net.*;
