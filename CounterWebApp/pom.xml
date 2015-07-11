@@ -17,6 +17,24 @@
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
 
+<!--  
+<distributionManagement>
+  <repository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://your.server.com:8081/nexus/content/repositories/releases/</url>
+  </repository>
+  <snapshotRepository>
+     <id>deployment</id>
+     <name>Internal Releases</name>
+     <url>http://your.server.com:8081/nexus/content/repositories/snapshots/</url>
+  </snapshotRepository>
+</distributionManagement>
+-->
+
+
+
+
 	<dependencies>
 
 		<!-- Unit Test -->
@@ -86,7 +104,7 @@
 				<artifactId>tomcat7-maven-plugin</artifactId>
 				<version>2.2</version>
 				<configuration>
-					<url>http://52.2.185.84:8080/manager/text</url>
+					<url>http://plt1_tomcat.mooo.com:8080/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/CounterWebApp</path> 
 					<username>tomcat</username>
