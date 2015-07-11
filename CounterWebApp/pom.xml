@@ -103,8 +103,8 @@
 					<url>http://plt1_tomcat.mooo.com:8080/manager/text</url>
 					<server>TomcatServer</server>
 					<path>/CounterWebApp</path> 
-					<username>tomcat</username>
-					<password>tomcat</password>					
+<!-- 					<username>tomcat</username>
+					<password>tomcat</password> -->					
 				</configuration>
 			</plugin>		  
 						   
