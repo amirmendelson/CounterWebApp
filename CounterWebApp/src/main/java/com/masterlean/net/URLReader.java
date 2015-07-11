@@ -50,7 +50,7 @@ public class URLReader {
 	public String getDateTime() {		 
 		   //get current date time with Date()
 		   Date date = new Date();
-		   return dateFormat.format(date);
+		   return dateFormat.format(date) ;
 	 }
 
 	public static String getTemperature() {
@@ -60,7 +60,7 @@ public class URLReader {
 				String res = URLReader.read(url);
 				JSONObject obj = new JSONObject(res);
 				double temperature = obj.getJSONObject("main").getDouble("temp");
-				return String.valueOf(temperature);				
+				return "'" + String.valueOf(temperature) + "'";				
 			} catch (Exception ex) {
 				ex.printStackTrace();
 			}
