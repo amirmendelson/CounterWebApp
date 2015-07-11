@@ -78,6 +78,7 @@
 
 	<build>
 		<finalName>CounterWebApp</finalName>
+ 
 
 		<plugins>
 			<plugin>
@@ -91,8 +92,8 @@
 					<username>tomcat</username>
 					<password>tomcat</password>					
 				</configuration>
-			</plugin>		 
-			 
+			</plugin>		  
+			   
 		    <!-- Eclipse project -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
