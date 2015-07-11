@@ -92,6 +92,7 @@
 					<password>tomcat</password>					
 				</configuration>
 			</plugin>		
+			
 		    <!-- Eclipse project -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
