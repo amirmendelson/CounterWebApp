@@ -87,7 +87,7 @@
 				<configuration>
 					<url>http://52.2.185.84:8080/manager/text</url>
 					<server>TomcatServer</server>
-					<path>/CounterWebApp</path>
+					<path>/CounterWebApp</path> 
 					<username>tomcat</username>
 					<password>tomcat</password>					
 				</configuration>
