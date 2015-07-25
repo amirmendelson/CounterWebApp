@@ -22,13 +22,13 @@
 	     <id>deployment</id>
 	     <name>Internal Releases</name>
 	     <!--url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/releases/</url-->	     
-	     <url>http://52.2.231.111:8081/nexus/content/repositories/releases/</url>
+	     <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/releases/</url>
 	  </repository>
 	  <snapshotRepository>
 	     <id>deployment</id>
 	     <name>Internal Releases</name>
 	     <!--url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/snapshots/</url-->
-	     <url>http://52.2.231.111:8081/nexus/content/repositories/snapshots/</url>	     
+	     <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/snapshots/</url>	     
 	  </snapshotRepository>
 	</distributionManagement>
 
@@ -133,6 +133,5 @@
 				</configuration>
 			</plugin>
 		</plugins>
-
 	</build>
 </project>
