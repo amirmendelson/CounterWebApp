@@ -22,8 +22,8 @@ public class BaseController {
 	public String welcome(ModelMap model) {
 
 		String res = String.valueOf(URLReader.getTemperature());
-		
-		model.addAttribute("message", "Welcome  - temperature in PARIS is = " + res);
+		   
+		model.addAttribute("message", "Welcome !-! temperature in PARIS is = " + res);
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
 
