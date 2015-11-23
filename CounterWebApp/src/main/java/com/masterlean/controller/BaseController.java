@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 import com.masterlean.net.URLReader;
 
-
+ 
 
 @Controller
 public class BaseController {
