@@ -35,6 +35,7 @@ public class URLReaderTest {
  
     @Test
     public void testGetDateTime() {
+        System.out.println("@ATest - testGetDateTime");
     	URLReader reader = new URLReader();
         String time = reader.getDateTime();
         assertNotNull(time);
