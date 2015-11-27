@@ -38,6 +38,7 @@ public class URLReaderTest {
         System.out.println("@Test - testGetDateTime");
     	URLReader reader = new URLReader();
         String time = reader.getDateTime();
+        System.out.println("@Test - testGetDateTime = " + time);
         assertNotNull(time);
     }
 }
