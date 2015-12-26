@@ -21,8 +21,8 @@ public class BaseController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String welcome(ModelMap model) {
 
-		String res = String.valueOf(URLReader.getTemperature());
-		   
+		String res = String.valueOf(URLReader.getTemperature()); 
+		
 		model.addAttribute("message", "Welcome - info is = " + res);
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);

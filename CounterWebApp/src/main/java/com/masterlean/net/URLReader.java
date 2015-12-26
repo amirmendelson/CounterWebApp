@@ -57,6 +57,9 @@ public class URLReader {
 
 			try {
 				String url="http://api.openweathermap.org/data/2.5/weather?q=Paris&units=metric";
+				
+				url = "http://api.openweathermap.org/data/2.5/weather?q=Paris,fr&units=metric&appid=2de143494c0b295cca9337e1e96b00e0";
+				
 				String res = URLReader.read(url);
 				JSONObject obj = new JSONObject(res);
 				double temperature = obj.getJSONObject("main").getDouble("temp");
