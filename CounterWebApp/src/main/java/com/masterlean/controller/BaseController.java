@@ -23,7 +23,7 @@ public class BaseController {
 
 		String res = String.valueOf(URLReader.getTemperature()); 
 		
-		model.addAttribute("message", "Welcome - info is = " + res);
+		model.addAttribute("message", "Welcome - info is == " + res);
 		model.addAttribute("counter", ++counter);
 		logger.debug("[welcome] counter : {}", counter);
 
