@@ -4,7 +4,7 @@
 	<artifactId>CounterWebApp</artifactId>
 	<packaging>war</packaging>
 	
-	<version>1.0.0</version>
+	<version>1.0.0-snapshot</version>
 	
 	<name>CounterWebApp Maven Webapp</name>
 	<url>http://maven.apache.org</url>
@@ -93,14 +93,12 @@
 		</dependency>
 	</dependencies>
 
-	
+
     <scm>
 		<url>scm:git:git@github.com:amirmendelson/CounterWebApp.git</url>
 		<connection>scm:git:git@github.com:amirmendelson/CounterWebApp.git</connection>
 		<developerConnection>scm:git:git@github.com:amirmendelson/CounterWebApp.git</developerConnection>
-		<!-- <tag>HEAD</tag> -->
-	  <tag>CounterWebApp-1.0.0</tag>
-  </scm>    
+    </scm>    
 	
 	
 	<build>
