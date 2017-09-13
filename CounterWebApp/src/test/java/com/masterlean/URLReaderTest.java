@@ -15,7 +15,7 @@ import com.masterlean.net.URLReader;
 public class URLReaderTest {
     @BeforeClass
     public static void oneTimeSetUp() {
-    	System.out.println("@BeforeClass - oneTimeSetUp");
+    	System.out.println("@BeforeClass - oneTimeSetUp 09/2017");
     }
  
     @AfterClass
