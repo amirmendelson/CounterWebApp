@@ -27,8 +27,10 @@
 	
 	<distributionManagement>
 	  <repository>
-	     <id>nexus-releases</id>
-	     <name>Releases</name>
+	  
+	  
+	     <id>nexus-snapshots</id>
+	     <name>Snapshots</name>
 		 
          <!--  
 	     <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/releases/</url>
