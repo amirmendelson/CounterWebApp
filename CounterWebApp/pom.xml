@@ -17,9 +17,17 @@
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
 	
+	<!--
+	This is the problem, you are using the same id for three different repositories. 
+	Maven manages these repositories by ID, so each ID must be unique! 
+	E.g. use "nexus-releases", "nexus-snapshots" and "nexus".
+	
+	-->
+	
+	
 	<distributionManagement>
 	  <repository>
-	     <id>deployment</id>
+	     <id>nexus-releases</id>
 	     <name>Releases</name>
 		 
          <!--  
@@ -30,7 +38,7 @@
 		 <url>http://localhost:8081/nexus/content/repositories/releases/</url>
          --> 
 		 
-		 <url>http://35.188.197.206:8081/nexus/content/repositories/releases/</url>
+		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots</url>
 
 		      
 		 
@@ -47,7 +55,7 @@
 		 <!--
 		 <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
 		 -->
-		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
+		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots</url>
 
 	  </snapshotRepository>
 
