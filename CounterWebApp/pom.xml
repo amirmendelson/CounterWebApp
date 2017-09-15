@@ -16,6 +16,7 @@
 		<logback.version>1.0.13</logback.version>
 		<jcl-over-slf4j.version>1.7.5</jcl-over-slf4j.version>
 	</properties>
+	
 	<distributionManagement>
 	  <repository>
 	     <id>deployment</id>
@@ -30,11 +31,17 @@
 	     <id>deployment</id>
 	     <name>Internal Releases</name>
 	     <!--url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/snapshots/</url-->
-	     <!-- <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/snapshots/</url> -->	     
+	     <!-- <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/snapshots/</url> -->	   
+		 
+		 <!--
 		 <url>http://localhost:8081/nexus/content/repositories/snapshots/</url>
+		 -->
+		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
+
 	  </snapshotRepository>
 	</distributionManagement>
 
+	
 	<dependencies>
 		<!-- Unit Test -->
 		<dependency>
