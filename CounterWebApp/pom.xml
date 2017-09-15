@@ -24,7 +24,13 @@
          <!--  
 	     <url>http://plt1_Nexus.mooo.com:8081/nexus/content/repositories/releases/</url>
          --> 
+
+		 <!--
 		 <url>http://localhost:8081/nexus/content/repositories/releases/</url>
+         --> 
+		 
+		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
+
 		 
 		 </repository>
 	  <snapshotRepository>
