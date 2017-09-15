@@ -45,6 +45,10 @@
 		 <url>http://35.188.197.206:8081/nexus/content/repositories/snapshots/</url>
 
 	  </snapshotRepository>
+	  
+	  <username>admin</username>
+	  <password>admin123</password> -->	
+	  
 	</distributionManagement>
 
 	
